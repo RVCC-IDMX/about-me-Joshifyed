@@ -1,0 +1,23 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    background-color: #354B85;
+    color: #ED773B;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fredoka One", cursive;
+    font-size: 35pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer{
+    color: #ED773B;
+    border: 2px solid #084042;
+    background-color: #1240B8;
+    text-align:center;
+    padding: 1em;
+}
