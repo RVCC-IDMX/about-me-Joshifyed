@@ -8,6 +8,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Fredoka One", cursive;
     font-size: 35pt;
+    text-align: center;
 }
 
 header {
@@ -21,3 +22,7 @@ header {
     text-align:center;
     padding: 1em;
 }
+#bio {
+    text-align: center;
+}
+#hobbies ul li:nth-child()
