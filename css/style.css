@@ -25,3 +25,15 @@ header {
 #bio {
     text-align: center;
 }
+#hobbies {
+    text-align: center;
+}
+#gallery {
+    border: 2px solid #ED773B
+}
+#gallery img {
+    max-width: 100%;
+}
+#gallery figure {
+    text-align: center;
+}
