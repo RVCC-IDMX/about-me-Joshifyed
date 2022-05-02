@@ -29,11 +29,26 @@ header {
     text-align: center;
 }
 #gallery {
-    border: 2px solid #ED773B
+    border: 2px solid #ED773B;
+    margin-bottom: 2rem;
+    
 }
 #gallery img {
     max-width: 100%;
 }
 #gallery figure {
     text-align: center;
+}
+#lit {
+    border: 2px solid #ED773B;
+    margin-bottom: 2rem;
+
+}
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+#lit div p {
+    padding: 0.3rem 0;
 }
