@@ -136,6 +136,58 @@
 
 </div>
     </article>
+    <section id="contact">
+<h2>Contact Us</h2>
+<form id="contactform" name="contactForm" method="post"
+data-netlify="true">
+
+<fieldset>
+    <legend>Contact Form</legend>
+
+<div id="formElements">
+
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="phonetype">Phone type</label>
+    <select id="phonetype" name="phonetype">
+        <option value=""selected>Select phone type</option>
+        <option value="Mobile">Mobile</option>
+        <option value="Work">Work</option>
+        <option value="Home">Home</option>
+    </select>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="8"></textarea>
+
+    <fieldset>
+<legend>Would you like a reply?</legend>
+<ul>
+    <li>
+       <input type="radio" id="message-yes"
+       name="reply">
+       <label for="message-yes">Yes a reply would be nice.</label>
+    </li>
+        <input type="radio" id="message-no"
+        name="reply">
+        
+        <label for="message-no">No thanks</li>
+</ul>
+
+    </fieldset>
+    <button type="submit">Send</button>
+
+</fieldset>
+</form>
+
+
+    </section>
 
     </main>
 
