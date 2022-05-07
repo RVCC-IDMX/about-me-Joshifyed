@@ -52,3 +52,6 @@ header {
 #lit div p {
     padding: 0.3rem 0;
 }
+#formElements {
+    display:grid;
+}
